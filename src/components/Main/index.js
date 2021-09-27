@@ -8,10 +8,9 @@ export function Main() {
     return (
         <main>
             <section className="home_container">
-                <div className="left-side">
                     <div className="title">
                         { selectedImages &&   <h2> {selectedImages.title} </h2>}
-                            <a className="btn" href="https://www.corebiz.ag/pt/" target="blank" aria-label="veja mais">Veja mais<img src="./images/arrow-circle.svg" alt="Button" />
+                            <a className="btn" href="https://www.corebiz.ag/pt/" target="blank" aria-label="veja mais">Veja mais<img  className="btn_icon " src="./images/arrow-circle.svg" alt="Button" />
                             </a>
                     </div>
                     <div className="home_images">
@@ -28,7 +27,6 @@ export function Main() {
                         )
                     } ) }
                     </div>
-                </div>
                 <div className="banner">
                     {selectedImages && <img className="image-banner" src= {selectedImages.url } />} 
                 </div>

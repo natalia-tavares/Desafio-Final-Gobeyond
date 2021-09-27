@@ -6,7 +6,7 @@ export function Footer() {
     return (
       <footer className="container">
         <section className="Col1">
-          <div>
+          <div className="Social_container">
             <div className="logo">
             <img src="Images/logo-corebiz.svg" />
               <p>direitos reservados, Corebiz 2021</p>

@@ -7,7 +7,6 @@ export function Header() {
                 <nav className="NavbarItens">
                 <img src="Images/logo-corebiz-white.svg" />
                             <div className="menu-itens"> 
-                            
                             </div>
                             <ul className="menu">
                                 <li>
