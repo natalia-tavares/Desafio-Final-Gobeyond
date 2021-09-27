@@ -1,0 +1,64 @@
+.home_container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 70% 30%;
+    padding: 0 8rem;
+}
+
+.left-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 72vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.home_container .btn {
+    width: 157px;
+    height: 35px;
+    margin: 3rem;
+    border-radius: 50px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: #000;
+}
+
+.home_images{
+    display: flex;
+
+}
+
+.Icon_Image {
+    width: 20%;
+    margin-left: 15px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 18px;
+}
+
+
+
